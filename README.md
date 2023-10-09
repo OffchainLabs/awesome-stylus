@@ -26,6 +26,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) - A Uniswap v2 proof of concept implementation
 - [Stylus Permit](https://github.com/prestwich/stylus-permit) - An ERC20 Permit example in Rust
 - ERC721 Examples
+  - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/)
   - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721)
   - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main)
 - [P256 Verification Using Arbitrum Stylus](https://github.com/jake-nyquist/stylus-p256-example) - Example of C code compiled to Stylus to verify an ECDSA signature using a standard P256 Curve
