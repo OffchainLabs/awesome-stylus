@@ -1,7 +1,7 @@
 # Awesome Stylus
 A curated list of Arbitrum Stylus code examples, libraries, projects and resources.
 
-![Arbitrum Stylus logo](./Arbitrum_Stylus-Logomark.svg | width=100)
+<img src="./Arbitrum_Stylus-Logomark.svg" width="128" height="128" />
 
 ## Guides
 - [A Gentle Introduction: Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction)
