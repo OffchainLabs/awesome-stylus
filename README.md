@@ -3,6 +3,14 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 
 <img src="./Arbitrum_Stylus-Logomark.svg" width="128" height="128" />
 
+- [Official Docs](https://docs.arbitrum.io/stylus/stylus-gentle-introduction) - Official docs on Stylus
+- [Rust SDK](https://github.com/OffchainLabs/stylus-sdk-rs) - Rust SDK
+- [Cargo Stylus](https://github.com/OffchainLabs/cargo-stylus) - CLI tool for compiling and deploying Stylus smart contracts
+- [Discord](https://discord.gg/arbitrum) - Check out the #stylus channel in Arbitrum's Discord server
+- [Telegram](https://t.me/arbitrum_stylus) - A dev focused chat for Stylus builders
+- [Offchain Labs Twitter](https://twitter.com/OffchainLabs) - Follow along for Offchain Labs and Arbitrum news and info
+- [Stylus Repo](https://github.com/OffchainLabs/stylus) - The repo hosting the core code
+
 ## Guides
 - [A Gentle Introduction: Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction)
 - [Quickstart (Rust, Stylus)](https://docs.arbitrum.io/stylus/stylus-quickstart)
@@ -13,7 +21,6 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Building a Stylus Smart Contract (video)](https://www.youtube.com/watch?v=DJjpPWuGKq0)
 - [Using AssemblyScript on Stylus (video)](https://www.youtube.com/watch?v=FdFvZeqeSBI)
 - [Arbitrum Rust Smart Contracts for Solidity Devs (video)](https://www.youtube.com/watch?v=_Z27pN-U0N0)
-
 
 ## Examples
 - [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) - A Uniswap v2 proof of concept implementation
