@@ -1,6 +1,8 @@
 # Awesome Stylus
 A curated list of Arbitrum Stylus code examples, libraries, projects and resources.
 
+![Arbitrum Stylus logo](./Arbitrum_Stylus-Logomark.svg)
+
 ## Guides
 - [A Gentle Introduction: Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction)
 - [Quickstart (Rust, Stylus)](https://docs.arbitrum.io/stylus/stylus-quickstart)
