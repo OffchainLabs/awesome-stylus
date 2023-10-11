@@ -34,3 +34,4 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Stylus BLST](https://github.com/rauljordan/stylus-blst) - A C based smart contract that verifies BLS signatures onchain
 - [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) - Sieve of Erathosthenes implemented with AssemblyScript
 - [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) - A Rust based project that uses gravitational field computation for generating NFTs
+- [Stylusmate](https://github.com/DeVazzi/stylusmate) - An implementation of ERC20 example with Ownerable module in Rust
