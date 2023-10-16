@@ -1,6 +1,8 @@
 # Awesome Stylus
 A curated list of Arbitrum Stylus code examples, libraries, projects and resources.
 
+NOTE: None of the links, projects, or content here have been verified or are endorsed by Offchain Labs, Inc. If you have any questions, please contact the developer directly.
+
 <img src="./Arbitrum_Stylus-Logomark.svg" width="128" height="128" />
 
 - [Official Docs](https://docs.arbitrum.io/stylus/stylus-gentle-introduction) - Official docs on Stylus
