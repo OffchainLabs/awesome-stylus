@@ -1,8 +1,6 @@
 # Awesome Stylus
 A curated list of Arbitrum Stylus code examples, libraries, projects and resources.
 
-NOTE: None of the links, projects, or content here have been verified or are endorsed by Offchain Labs, Inc. If you have any questions, please contact the developer directly.
-
 <img src="./Arbitrum_Stylus-Logomark.svg" width="128" height="128" />
 
 - [Official Docs](https://docs.arbitrum.io/stylus/stylus-gentle-introduction) - Official docs on Stylus
@@ -26,14 +24,15 @@ NOTE: None of the links, projects, or content here have been verified or are end
 
 ## Examples
 - [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) - A Uniswap v2 proof of concept implementation
-- [Stylus Permit](https://github.com/prestwich/stylus-permit) - An ERC20 Permit example in Rust
+- ERC20 Examples
+  - [Stylus Permit](https://github.com/prestwich/stylus-permit) - An ERC20 Permit example in Rust
+  - [Stylusmate](https://github.com/DeVazzi/stylusmate) - An ERC20 with Ownable module in Rust
 - ERC721 Examples
-  - [cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/)
-  - [0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721)
-  - [gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main)
+  - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/)
+  - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721)
+  - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main)
 - [P256 Verification Using Arbitrum Stylus](https://github.com/jake-nyquist/stylus-p256-example) - Example of C code compiled to Stylus to verify an ECDSA signature using a standard P256 Curve
 - [Keccak Looper](https://gist.github.com/cygaar/ee3cf1d1f98a57369717c9d91e076fd1) - A Rust contract that loops n times and hashes an input string repeatedly
 - [Stylus BLST](https://github.com/rauljordan/stylus-blst) - A C based smart contract that verifies BLS signatures onchain
 - [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) - Sieve of Erathosthenes implemented with AssemblyScript
 - [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) - A Rust based project that uses gravitational field computation for generating NFTs
-- [Stylusmate](https://github.com/DeVazzi/stylusmate) - An implementation of ERC20 example with Ownerable module in Rust
