@@ -10,6 +10,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Telegram](https://t.me/arbitrum_stylus) - A dev focused chat for Stylus builders
 - [Offchain Labs Twitter](https://twitter.com/OffchainLabs) - Follow along for Offchain Labs and Arbitrum news and info
 - [Stylus Repo](https://github.com/OffchainLabs/stylus) - The repo hosting the core code
+- [Stylus Playground](https://stylus-playground.vercel.app/) - An online playground for building, compiling and testing Stylus smart contracts
 
 ## Guides
 - [A Gentle Introduction: Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction)
