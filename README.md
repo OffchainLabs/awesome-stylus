@@ -36,4 +36,6 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Stylus BLST](https://github.com/rauljordan/stylus-blst) - A C based smart contract that verifies BLS signatures onchain
 - [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) - Sieve of Erathosthenes implemented with AssemblyScript
 - [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) - A Rust based project that uses gravitational field computation for generating NFTs
-- [Pausable Library in Rust](https://github.com/ggonzalez94/stylus-pausable) - A sample implementation of Pausable and Ownable in Rust.
+- [Pausable Library in Rust](https://github.com/ggonzalez94/stylus-pausable) - A sample implementation of Pausable and Ownable in Rust
+- [stylus-toolkit](https://github.com/LimeChain/stylus-toolkit) - A toolkit of Stylus primitives and examples of their usage
+- [stylus-benchmark](https://github.com/Daniel-K-Ivanov/stylus-benchmark) - A project benchmarking Stylus vs EVM implementations on their gas consumption
