@@ -38,3 +38,5 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) - A Rust based project that uses gravitational field computation for generating NFTs
 - [Pausable Library in Rust](https://github.com/ggonzalez94/stylus-pausable) - A sample implementation of Pausable and Ownable in Rust.
 - [Stylus ERC4626](https://github.com/solidoracle/erc4626-rs) - A sample implementation of OpenZeppelin ERC4626 contract in Rust
+- [stylus-toolkit](https://github.com/LimeChain/stylus-toolkit) - A toolkit of Stylus primitives and examples of their usage
+- [stylus-benchmark](https://github.com/Daniel-K-Ivanov/stylus-benchmark) - A project benchmarking Stylus vs EVM implementations on their gas consumption
