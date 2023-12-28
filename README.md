@@ -33,6 +33,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
   - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main)
 - [P256 Verification Using Arbitrum Stylus](https://github.com/jake-nyquist/stylus-p256-example) - Example of C code compiled to Stylus to verify an ECDSA signature using a standard P256 Curve
 - [Keccak Looper](https://gist.github.com/cygaar/ee3cf1d1f98a57369717c9d91e076fd1) - A Rust contract that loops n times and hashes an input string repeatedly
+- [Stylus Proxy](https://github.com/byteZorvin/stylus-proxy) - An example contract for implementing minimal proxy pattern in Stylus
 - [Stylus BLST](https://github.com/rauljordan/stylus-blst) - A C based smart contract that verifies BLS signatures onchain
 - [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) - Sieve of Erathosthenes implemented with AssemblyScript
 - [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) - A Rust based project that uses gravitational field computation for generating NFTs
