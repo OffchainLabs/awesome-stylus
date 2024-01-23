@@ -22,6 +22,9 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Using AssemblyScript on Stylus (video)](https://www.youtube.com/watch?v=FdFvZeqeSBI)
 - [Arbitrum Rust Smart Contracts for Solidity Devs (video)](https://www.youtube.com/watch?v=_Z27pN-U0N0)
 
+## Tools
+- [Stylus Playground](https://stylus-playground.vercel.app/) - An online playground for building, compiling and testing Stylus smart contracts
+
 ## Examples
 - [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) - A Uniswap v2 proof of concept implementation
 - ERC20 Examples
