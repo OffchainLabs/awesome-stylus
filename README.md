@@ -27,10 +27,13 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - ERC20 Examples
   - [Stylus Permit](https://github.com/prestwich/stylus-permit) - An ERC20 Permit example in Rust
   - [Stylusmate](https://github.com/DeVazzi/stylusmate) - An ERC20 with Ownable module in Rust
+  - [Rustmate ERC20](https://github.com/cairoeth/rustmate/blob/main/src/tokens/erc20.rs) - An ERC20 + EIP-2612 implementation equivalent to Solmate.
 - ERC721 Examples
   - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/)
   - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721)
   - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main)
+  - [Rustmate ERC721](https://github.com/cairoeth/rustmate/blob/main/src/tokens/erc721.rs) - An ERC-721 implementation equivalent to Solmate.
+- [Rustmate](https://github.com/cairoeth/rustmate) - Blazing fast, modern, and optimized Rust building blocks for smart contract development using Stylus.
 - [Zk-sunade](https://github.com/supernovahs/zk-sunade) - An optimized , handwritten implementation of Groth16 using Arbitrum Stylus
 - [P256 Verification Using Arbitrum Stylus](https://github.com/jake-nyquist/stylus-p256-example) - Example of C code compiled to Stylus to verify an ECDSA signature using a standard P256 Curve
 - [Keccak Looper](https://gist.github.com/cygaar/ee3cf1d1f98a57369717c9d91e076fd1) - A Rust contract that loops n times and hashes an input string repeatedly
