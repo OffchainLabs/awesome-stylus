@@ -17,10 +17,20 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [How To Add a New Programming Language To Stylus](https://docs.arbitrum.io/stylus/how-tos/adding-support-for-new-languages)
 - [How To Run a Local Dev Node With Stylus Support](https://docs.arbitrum.io/stylus/how-tos/local-stylus-dev-node)
 - [Stylus Rust SDK: Feature Overview](https://docs.arbitrum.io/stylus/reference/rust-sdk-guide)
-- [Getting Started With Arbitrum Stylus (video)](https://www.youtube.com/watch?v=CF1hLTGnByM)
-- [Building a Stylus Smart Contract (video)](https://www.youtube.com/watch?v=DJjpPWuGKq0)
-- [Using AssemblyScript on Stylus (video)](https://www.youtube.com/watch?v=FdFvZeqeSBI)
-- [Arbitrum Rust Smart Contracts for Solidity Devs (video)](https://www.youtube.com/watch?v=_Z27pN-U0N0)
+
+## Videos
+- [Onchain Chess in Rust with Arbitrum Stylus | Chris Cordle | ETH Denver 2024 | 2024.02.26](https://www.youtube.com/watch?v=EXFMRfTF83M)
+- [Arbitrum Stylus | Mahsa Moosavi, Rachel Bousfield, Chris Cordle, Austin Marazza | Arbitrum Virtual Day | 2023.12.11](https://www.youtube.com/watch?v=dXiO6XQgIs0)
+- [Arbitrum Smart Contracts in Rust | Raul Jordan | ETHGlobal Istanbul 2023 | 2023.11.23](https://www.youtube.com/watch?v=XIpxtXMCscg)
+- [An Odyssey Into Arbitrum | Jose Franco | SmartCon 2023 | 2023.10.26](https://www.youtube.com/shorts/yOu0CvxhO4Y)
+- [Arbitrum Stylus: Smart Contract Composability | Rachel Bousfield | Stanford Blockchain Club | 2023.10.16](https://www.youtube.com/watch?v=gP49H27JU04&t=4s)
+- [Using AssemblyScript on Stylus | Jose Franco | Offchain Labs Dev Tutorials | 2023.09.28](https://www.youtube.com/watch?v=FdFvZeqeSBI)
+- [Arbitrum Rust Smart Contracts for Solidity Devs | Rachel Bousfield | ETHGlobal NYC | 2023.09.26](https://www.youtube.com/watch?v=_Z27pN-U0N0&t=20s)
+- [Building a Stylus Smart Contract Pt 1 | Rachel Bousfield | Offchain Labs Dev Tutorials | 2023.09.22](https://www.youtube.com/watch?v=DJjpPWuGKq0)
+- [Building a Stylus Smart Contract Pt 2 | Rachel Bousfield | Offchain Labs Dev Tutorials | 2023.09.22](https://www.youtube.com/watch?v=HsuI1TOyMs4)
+- [Getting Started with Arbitrum Stylus | Raul Jordan | Offchain Labs Dev Tutorials | 2023.09.12](https://www.youtube.com/watch?v=CF1hLTGnByM)
+- [Arbitrum Stylus: Rust Smart Contracts on L2 | Raul Jordan | Rust x Ethereum Day (Paradigm) | 2023.09.11](https://www.youtube.com/watch?v=XjGbnvE-OTM)
+- [Arbitrum Stylus | Rachel Bousfield | Arbitrum Day Paris | 2023.08.18](https://www.youtube.com/watch?v=Whefhca1Fmk)
 
 ## Tools
 - [Stylus Playground](https://stylus-playground.vercel.app/) - An online playground for building, compiling and testing Stylus smart contracts
