@@ -22,6 +22,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Onchain Chess in Rust with Arbitrum Stylus | Chris Cordle | ETH Denver 2024 | 2024.02.26](https://www.youtube.com/watch?v=EXFMRfTF83M)
 - [Arbitrum Stylus | Mahsa Moosavi, Rachel Bousfield, Chris Cordle, Austin Marazza | Arbitrum Virtual Day | 2023.12.11](https://www.youtube.com/watch?v=dXiO6XQgIs0)
 - [Arbitrum Smart Contracts in Rust | Raul Jordan | ETHGlobal Istanbul 2023 | 2023.11.23](https://www.youtube.com/watch?v=XIpxtXMCscg)
+- [Rust smart contracts? Arbitrum Stylus Interview | Rachel Bousfield, Patrick Collins | Cyfrin Audits Interview | 2023.11.02](https://www.youtube.com/watch?v=UVLDP1jqEFM)
 - [An Odyssey Into Arbitrum | Jose Franco | SmartCon 2023 | 2023.10.26](https://www.youtube.com/shorts/yOu0CvxhO4Y)
 - [Arbitrum Stylus: Smart Contract Composability | Rachel Bousfield | Stanford Blockchain Club | 2023.10.16](https://www.youtube.com/watch?v=gP49H27JU04&t=4s)
 - [Using AssemblyScript on Stylus | Jose Franco | Offchain Labs Dev Tutorials | 2023.09.28](https://www.youtube.com/watch?v=FdFvZeqeSBI)
