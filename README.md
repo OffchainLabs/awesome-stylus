@@ -43,22 +43,26 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [OpenStylus](https://github.com/Prabhat1308/OpenStylus) - Modular and gas-optimized smart contract libraries and frameworks for Stylus smart contract development
 
 ## Examples
-- [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) - A Uniswap v2 proof of concept implementation
+
+:warning: **IMPORTANT**: Some of these examples were created using an older version of cargo-stylus (v0.1.x), and might not be compatible with recent versions of cargo-stylus without making some modifications to the source code. Those examples are labelled as `[cs v0.1.x]` in the list.
+
+- [Stylus workshop (Rust & Solidity)](https://github.com/OffchainLabs/stylus-workshop-rust-solidity) - An example of 3 contracts (two written in Rust, and one in Solidity) interacting with each other.
+- [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) `[cs v0.1.x]` - A Uniswap v2 proof of concept implementation
 - ERC20 Examples
-  - [Stylus Permit](https://github.com/prestwich/stylus-permit) - An ERC20 Permit example in Rust
-  - [Stylusmate](https://github.com/DeVazzi/stylusmate) - An ERC20 with Ownable module in Rust
-  - [Rustmate ERC20](https://github.com/cairoeth/rustmate/blob/main/src/tokens/erc20.rs) - An ERC20 + EIP-2612 implementation equivalent to Solmate
+  - [Stylus Permit](https://github.com/prestwich/stylus-permit) `[cs v0.1.x]` - An ERC20 Permit example in Rust
+  - [Stylusmate](https://github.com/DeVazzi/stylusmate) `[cs v0.1.x]` - An ERC20 with Ownable module in Rust
+  - [Rustmate ERC20](https://github.com/cairoeth/rustmate/blob/main/src/tokens/erc20.rs) `[cs v0.1.x]` - An ERC20 + EIP-2612 implementation equivalent to Solmate
 - ERC721 Examples
-  - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/)
-  - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721)
-  - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main)
+  - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/) `[cs v0.1.x]` 
+  - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721) `[cs v0.1.x]` 
+  - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main) `[cs v0.1.x]` 
 - [Zk-sunade](https://github.com/supernovahs/zk-sunade) - An optimized , handwritten implementation of Groth16 using Arbitrum Stylus
 - [P256 Verification Using Arbitrum Stylus](https://github.com/jake-nyquist/stylus-p256-example) - Example of C code compiled to Stylus to verify an ECDSA signature using a standard P256 Curve
 - [Keccak Looper](https://gist.github.com/cygaar/ee3cf1d1f98a57369717c9d91e076fd1) - A Rust contract that loops n times and hashes an input string repeatedly
 - [Stylus Proxy](https://github.com/byteZorvin/stylus-proxy) - An example contract for implementing minimal proxy pattern in Stylus
 - [Stylus BLST](https://github.com/rauljordan/stylus-blst) - A C based smart contract that verifies BLS signatures onchain
 - [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) - Sieve of Erathosthenes implemented with AssemblyScript
-- [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) - A Rust based project that uses gravitational field computation for generating NFTs
+- [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) `[cs v0.1.x]` - A Rust based project that uses gravitational field computation for generating NFTs
 - [Pausable Library in Rust](https://github.com/ggonzalez94/stylus-pausable) - A sample implementation of Pausable and Ownable in Rust
 - [Stylus ERC4626](https://github.com/solidoracle/erc4626-rs) - A sample implementation of OpenZeppelin ERC4626 contract in Rust
 - [stylus-benchmark](https://github.com/Daniel-K-Ivanov/stylus-benchmark) - A project benchmarking Stylus vs EVM implementations on their gas consumption
