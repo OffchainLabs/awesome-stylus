@@ -19,7 +19,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Stylus Rust SDK: Feature Overview](https://docs.arbitrum.io/stylus/reference/rust-sdk-guide)
 
 ## Videos
-- [Intro to Arbitrum Stylus: NFT Contracts in Rust | José Franco | Foss Asia Summit 2024 | 2024.04.08](https://www.youtube.com/live/8xEkv5bRIjs?si=NnP7oomEjKjfqDrq&t=7152](https://www.youtube.com/watch?v=M31sqbb3f8I&t=107s)
+- [Intro to Arbitrum Stylus: NFT Contracts in Rust | José Franco | Foss Asia Summit 2024 | 2024.04.08](https://www.youtube.com/watch?v=M31sqbb3f8I&t=107s)
 - [Intro to Rust & Arbitrum Stylus | Chris Cordle | Foss Asia Summit 2024 | 2024.04.08](https://www.youtube.com/live/M31sqbb3f8I?si=0gYJZVm6KInd0sEy&t=107)
 - [Intro to Arbitrum Stylus: Interactions Between Solidity and Rust | José Franco | ETHGlobal London 2024 | 2024.03.15](https://www.youtube.com/live/8xEkv5bRIjs?si=-QPJUZguT7a2c3T7&t=7140)
 - [Onchain Chess in Rust with Arbitrum Stylus | Chris Cordle | ETH Denver 2024 | 2024.02.26](https://www.youtube.com/watch?v=EXFMRfTF83M)
