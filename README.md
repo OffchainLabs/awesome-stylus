@@ -43,6 +43,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Stylus Suite](https://github.com/tolgayayci/stylus-vscode-extension) - Manage your Stylus projects with this Vs Code extension. Call cargo stylus methods with simple user interface, use pre defined snippets, chat with Stylus GPT and many more
 
 ## Libraries
+- [Inkmate](https://github.com/cygaar/inkmate) - Gas-efficient smart contracts written in Rust, including ERC20 and ERC721
 - [Rustmate](https://github.com/cairoeth/rustmate) - Blazing fast, modern, and optimized Rust building blocks for smart contract development using Stylus
 - [OpenStylus](https://github.com/Prabhat1308/OpenStylus) - Modular and gas-optimized smart contract libraries and frameworks for Stylus smart contract development
 
