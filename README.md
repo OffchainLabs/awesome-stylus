@@ -71,3 +71,4 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Pausable Library in Rust](https://github.com/ggonzalez94/stylus-pausable) - A sample implementation of Pausable and Ownable in Rust
 - [Stylus ERC4626](https://github.com/solidoracle/erc4626-rs) - A sample implementation of OpenZeppelin ERC4626 contract in Rust
 - [stylus-benchmark](https://github.com/Daniel-K-Ivanov/stylus-benchmark) - A project benchmarking Stylus vs EVM implementations on their gas consumption
+- [create2 tutorial](https://github.com/rollchad/stylus-create2): Deploy stylus contracts with `create2` and derive their addresses.
