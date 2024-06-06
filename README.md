@@ -49,7 +49,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 
 ## Examples
 
-:warning: **IMPORTANT**: Some of these examples were created using an older version of cargo-stylus (v0.1.x), and might not be compatible with recent versions of cargo-stylus without making some modifications to the source code. Those examples are labelled as `[cs v0.1.x]` in the list.
+:warning: **IMPORTANT**: Some of these examples were created using an older version of cargo-stylus (v0.1.x or v0.2.x), and might not be compatible with recent versions of cargo-stylus without making some modifications to the source code. Those examples are labelled as `[cs v0.1.x]` and `[cs v0.2.x]` in the list.
 
 - [Stylus workshop (Rust & Solidity)](https://github.com/OffchainLabs/stylus-workshop-rust-solidity) - An example of 3 contracts (two written in Rust, and one in Solidity) interacting with each other.
 - [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) `[cs v0.1.x]` - A Uniswap v2 proof of concept implementation
@@ -61,12 +61,12 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
   - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/) `[cs v0.1.x]` 
   - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721) `[cs v0.1.x]` 
   - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main) `[cs v0.1.x]` 
-- [Zk-sunade](https://github.com/supernovahs/zk-sunade) - An optimized , handwritten implementation of Groth16 using Arbitrum Stylus
+- [Zk-sunade](https://github.com/supernovahs/zk-sunade) `[cs v0.2.x]` - An optimized , handwritten implementation of Groth16 using Arbitrum Stylus
 - [P256 Verification Using Arbitrum Stylus](https://github.com/jake-nyquist/stylus-p256-example) - Example of C code compiled to Stylus to verify an ECDSA signature using a standard P256 Curve
 - [Keccak Looper](https://gist.github.com/cygaar/ee3cf1d1f98a57369717c9d91e076fd1) - A Rust contract that loops n times and hashes an input string repeatedly
-- [Stylus Proxy](https://github.com/byteZorvin/stylus-proxy) - An example contract for implementing minimal proxy pattern in Stylus
+- [Stylus Proxy](https://github.com/byteZorvin/stylus-proxy) `[cs v0.2.x]` - An example contract for implementing minimal proxy pattern in Stylus
 - [Stylus BLST](https://github.com/rauljordan/stylus-blst) - A C based smart contract that verifies BLS signatures onchain
-- [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) - Sieve of Erathosthenes implemented with AssemblyScript
+- [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) `[cs v0.2.x]` - Sieve of Erathosthenes implemented with AssemblyScript
 - [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) `[cs v0.1.x]` - A Rust based project that uses gravitational field computation for generating NFTs
 - [Pausable Library in Rust](https://github.com/ggonzalez94/stylus-pausable) - A sample implementation of Pausable and Ownable in Rust
 - [Stylus ERC4626](https://github.com/solidoracle/erc4626-rs) - A sample implementation of OpenZeppelin ERC4626 contract in Rust
