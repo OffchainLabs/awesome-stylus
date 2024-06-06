@@ -75,3 +75,30 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Stylus ERC4626](https://github.com/solidoracle/erc4626-rs) - A sample implementation of OpenZeppelin ERC4626 contract in Rust
 - [stylus-benchmark](https://github.com/Daniel-K-Ivanov/stylus-benchmark) - A project benchmarking Stylus vs EVM implementations on their gas consumption
 - [create2 tutorial](https://github.com/rollchad/stylus-create2): Deploy stylus contracts with `create2` and derive their addresses.
+
+### How to make code created with an older version of cargo-stylus compatible with the latest cargo-stylus v0.3.0
+
+#### From cargo-stylus v0.2.x to v0.3.x
+
+When trying to use the latest version of `cargo stylus` on a project created first on cs v0.2.x you might run into this error:
+
+```
+missing import pay_for_memory_grow
+```
+
+To make the code compatible with the latest version, you might need to update the stylus-sdk version used to v0.5.0
+
+#### From cargo-stylus v0.1.x to v0.3.x
+
+When trying to use the latest version of `cargo stylus` on a project created first on cs v0.1.x you might run into this error:
+
+```
+error: no library targets found in package `your-package-name`
+```
+
+Here are some tips for making this code compatible with the latest version:
+
+- Use `lib.rs` instead of `main.rs` for the main logic of your program
+- Add also a `[lib]` target to your Cargo.toml file if you don't have one
+- Update the stylus-sdk version used to v0.5.0
+- Modify the function names from `camelCase` to `snake_case`
