@@ -49,7 +49,27 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 
 ## Examples
 
-:warning: **IMPORTANT**: Some of these examples were created using an older version of cargo-stylus (v0.1.x or v0.2.x), and might not be compatible with recent versions of cargo-stylus without making some modifications to the source code. Those examples are labelled as `[cs v0.1.x]` and `[cs v0.2.x]` in the list.
+- ERC-20 Examples
+  - [https://github.com/OffchainLabs/stylus-erc20 (Rust)](https://github.com/OffchainLabs/stylus-erc20)
+- ERC7-21 Examples
+  - [https://github.com/OffchainLabs/stylus-erc721 (Rust)](https://github.com/OffchainLabs/stylus-erc721)
+  - [https://github.com/OffchainLabs/stylus-workshop-basic-nft (Rust)](https://github.com/OffchainLabs/stylus-workshop-basic-nft)
+- [Stylus workshop (Rust & Solidity)](https://github.com/OffchainLabs/stylus-workshop-rust-solidity) - An example of 3 contracts (two written in Rust, and one in Solidity) interacting with each other.
+- [Stylus workshop (Update Proxy logic from Solidity to Rust)](https://github.com/OffchainLabs/stylus-workshop-proxy-update) - An example of a Proxy written in Solidity that updates its logic contract from an ERC-20 Solidity contract to an ERC-20 Rust contract.
+- [Greeter tutorial](https://github.com/OffchainLabs/stylus-tutorials/tree/main/packages/greeter) - Example of Arbitrum's cross-chain message passing system
+- [P256 Verification Using Arbitrum Stylus](https://github.com/jake-nyquist/stylus-p256-example) - Example of C code compiled to Stylus to verify an ECDSA signature using a standard P256 Curve
+- [Keccak Looper](https://gist.github.com/cygaar/ee3cf1d1f98a57369717c9d91e076fd1) - A Rust contract that loops n times and hashes an input string repeatedly
+- [Stylus BLST](https://github.com/rauljordan/stylus-blst) - A C based smart contract that verifies BLS signatures onchain
+- [Pausable Library in Rust](https://github.com/ggonzalez94/stylus-pausable) - A sample implementation of Pausable and Ownable in Rust
+- [Stylus ERC4626](https://github.com/solidoracle/erc4626-rs) - A sample implementation of OpenZeppelin ERC4626 contract in Rust
+- [stylus-benchmark](https://github.com/Daniel-K-Ivanov/stylus-benchmark) - A project benchmarking Stylus vs EVM implementations on their gas consumption
+- [create2 tutorial](https://github.com/rollchad/stylus-create2): Deploy stylus contracts with `create2` and derive their addresses.
+
+## Further examples (created using an older cargo-stylus version and an older stylus-sdk version)
+
+:warning: **IMPORTANT**: These examples were created using an older version of cargo-stylus (v0.1.x or v0.2.x), and with an older stylus-sdk version (< v0.5.0) and might not be compatible with recent versions of cargo-stylus without making some modifications to the source code.
+
+### Examples built with cargo-stylus v0.1.x
 
 - ERC20 Examples
   - [Stylus Permit](https://github.com/prestwich/stylus-permit) `[cs v0.1.x]` - An ERC20 Permit example in Rust
@@ -59,19 +79,36 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
   - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/) `[cs v0.1.x]` 
   - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721) `[cs v0.1.x]` 
   - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main) `[cs v0.1.x]`
-  - [https://github.com/OffchainLabs/stylus-workshop-basic-nft (Rust)](https://github.com/OffchainLabs/stylus-workshop-basic-nft)
 - [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) `[cs v0.1.x]` - A Uniswap v2 proof of concept implementation
-- [Stylus workshop (Rust & Solidity)](https://github.com/OffchainLabs/stylus-workshop-rust-solidity) - An example of 3 contracts (two written in Rust, and one in Solidity) interacting with each other.
-- [Stylus workshop (Update Proxy logic from Solidity to Rust)](https://github.com/OffchainLabs/stylus-workshop-proxy-update) - An example of a Proxy written in Solidity that updates its logic contract from an ERC-20 Solidity contract to an ERC-20 Rust contract.
-- [Greeter tutorial](https://github.com/OffchainLabs/stylus-tutorials/tree/main/packages/greeter) - Example of Arbitrum's cross-chain message passing system
-- [Zk-sunade](https://github.com/supernovahs/zk-sunade) `[cs v0.2.x]` - An optimized , handwritten implementation of Groth16 using Arbitrum Stylus
-- [P256 Verification Using Arbitrum Stylus](https://github.com/jake-nyquist/stylus-p256-example) - Example of C code compiled to Stylus to verify an ECDSA signature using a standard P256 Curve
-- [Keccak Looper](https://gist.github.com/cygaar/ee3cf1d1f98a57369717c9d91e076fd1) - A Rust contract that loops n times and hashes an input string repeatedly
-- [Stylus Proxy](https://github.com/byteZorvin/stylus-proxy) `[cs v0.2.x]` - An example contract for implementing minimal proxy pattern in Stylus
-- [Stylus BLST](https://github.com/rauljordan/stylus-blst) - A C based smart contract that verifies BLS signatures onchain
-- [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) `[cs v0.2.x]` - Sieve of Erathosthenes implemented with AssemblyScript
 - [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) `[cs v0.1.x]` - A Rust based project that uses gravitational field computation for generating NFTs
-- [Pausable Library in Rust](https://github.com/ggonzalez94/stylus-pausable) - A sample implementation of Pausable and Ownable in Rust
-- [Stylus ERC4626](https://github.com/solidoracle/erc4626-rs) - A sample implementation of OpenZeppelin ERC4626 contract in Rust
-- [stylus-benchmark](https://github.com/Daniel-K-Ivanov/stylus-benchmark) - A project benchmarking Stylus vs EVM implementations on their gas consumption
-- [create2 tutorial](https://github.com/rollchad/stylus-create2): Deploy stylus contracts with `create2` and derive their addresses.
+
+#### How to make this code compatible with cargo-stylus v0.3.x and stylus-sdk v0.5.0
+
+When trying to use the latest version of `cargo stylus` on a project created first on cs v0.1.x you might run into this error:
+
+```
+error: no library targets found in package `your-package-name`
+```
+
+Here are some tips for making this code compatible with the latest version:
+
+- Use `lib.rs` instead of `main.rs` for the main logic of your program
+- Add also a `[lib]` target to your Cargo.toml file if you don't have one
+- Update the stylus-sdk version used to v0.5.0
+- Modify the function names from `camelCase` to `snake_case`
+
+### Examples built with cargo-stylus v0.2.x
+
+- [Zk-sunade](https://github.com/supernovahs/zk-sunade) `[cs v0.2.x]` - An optimized , handwritten implementation of Groth16 using Arbitrum Stylus
+- [Stylus Proxy](https://github.com/byteZorvin/stylus-proxy) `[cs v0.2.x]` - An example contract for implementing minimal proxy pattern in Stylus
+- [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) `[cs v0.2.x]` - Sieve of Erathosthenes implemented with AssemblyScript
+
+#### How to make this code compatible with cargo-stylus v0.3.x and stylus-sdk v0.5.0
+
+When trying to use the latest version of `cargo stylus` on a project created first on cs v0.2.x you might run into this error:
+
+```
+missing import pay_for_memory_grow
+```
+
+To make the code compatible with the latest version, you might need to update the stylus-sdk version used to v0.5.0
