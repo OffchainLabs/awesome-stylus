@@ -49,9 +49,10 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 
 ## Examples
 
-- ERC20 Examples
-  - .
-- ERC721 Examples
+- ERC-20 Examples
+  - [https://github.com/OffchainLabs/stylus-erc20 (Rust)](https://github.com/OffchainLabs/stylus-erc20)
+- ERC7-21 Examples
+  - [https://github.com/OffchainLabs/stylus-erc721 (Rust)](https://github.com/OffchainLabs/stylus-erc721)
   - [https://github.com/OffchainLabs/stylus-workshop-basic-nft (Rust)](https://github.com/OffchainLabs/stylus-workshop-basic-nft)
 - [Stylus workshop (Rust & Solidity)](https://github.com/OffchainLabs/stylus-workshop-rust-solidity) - An example of 3 contracts (two written in Rust, and one in Solidity) interacting with each other.
 - [Stylus workshop (Update Proxy logic from Solidity to Rust)](https://github.com/OffchainLabs/stylus-workshop-proxy-update) - An example of a Proxy written in Solidity that updates its logic contract from an ERC-20 Solidity contract to an ERC-20 Rust contract.
