@@ -41,8 +41,10 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Zig Stylus](https://github.com/Stylish-Stylus/zig-stylus) - Zig SDK for Stylus smart contracts
 - [stylus-toolkit](https://github.com/LimeChain/stylus-toolkit) - A toolkit of Stylus primitives and examples of their usage
 - [Stylus Suite](https://github.com/tolgayayci/stylus-vscode-extension) - Manage your Stylus projects with this Vs Code extension. Call cargo stylus methods with simple user interface, use pre defined snippets, chat with Stylus GPT and many more
+- [`koba`](https://github.com/OpenZeppelin/koba) - Deploy Stylus contracts with Solidity constructors
 
 ## Libraries
+- [OppenZeppelin Stylus](https://github.com/OpenZeppelin/rust-contracts-stylus) - OpenZeppelin Contracts for Stylus
 - [Inkmate](https://github.com/cygaar/inkmate) - Gas-efficient smart contracts written in Rust, including ERC20 and ERC721
 - [Rustmate](https://github.com/cairoeth/rustmate) - Blazing fast, modern, and optimized Rust building blocks for smart contract development using Stylus
 - [OpenStylus](https://github.com/Prabhat1308/OpenStylus) - Modular and gas-optimized smart contract libraries and frameworks for Stylus smart contract development
@@ -64,6 +66,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Stylus ERC4626](https://github.com/solidoracle/erc4626-rs) - A sample implementation of OpenZeppelin ERC4626 contract in Rust
 - [stylus-benchmark](https://github.com/Daniel-K-Ivanov/stylus-benchmark) - A project benchmarking Stylus vs EVM implementations on their gas consumption
 - [create2 tutorial](https://github.com/rollchad/stylus-create2): Deploy stylus contracts with `create2` and derive their addresses.
+- [OppenZeppelin Stylus Examples](https://github.com/OpenZeppelin/rust-contracts-stylus/examples) - OpenZeppelin Contracts for Stylus
 
 ## Further examples (created using an older cargo-stylus version and an older stylus-sdk version)
 
