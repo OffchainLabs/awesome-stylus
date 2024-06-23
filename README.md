@@ -1,5 +1,4 @@
 # Awesome Stylus
-
 A curated list of Arbitrum Stylus code examples, libraries, projects and resources.
 
 <img src="./Arbitrum_Stylus-Logomark.svg" width="128" height="128" />
@@ -13,7 +12,6 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Stylus Repo](https://github.com/OffchainLabs/stylus) - The repo hosting the core code
 
 ## Guides
-
 - [A Gentle Introduction: Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction)
 - [Quickstart (Rust, Stylus)](https://docs.arbitrum.io/stylus/stylus-quickstart)
 - [How To Add a New Programming Language To Stylus](https://docs.arbitrum.io/stylus/how-tos/adding-support-for-new-languages)
@@ -21,7 +19,6 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Stylus Rust SDK: Feature Overview](https://docs.arbitrum.io/stylus/reference/rust-sdk-guide)
 
 ## Videos
-
 - [Intro to Arbitrum Stylus: NFT Contracts in Rust | José Franco | Foss Asia Summit 2024 | 2024.04.08](https://www.youtube.com/watch?v=M31sqbb3f8I&t=107s)
 - [Intro to Rust & Arbitrum Stylus | Chris Cordle | Foss Asia Summit 2024 | 2024.04.08](https://www.youtube.com/live/M31sqbb3f8I?si=0gYJZVm6KInd0sEy&t=107)
 - [Intro to Arbitrum Stylus: Interactions Between Solidity and Rust | José Franco | ETHGlobal London 2024 | 2024.03.15](https://www.youtube.com/live/8xEkv5bRIjs?si=-QPJUZguT7a2c3T7&t=7140)
@@ -40,7 +37,6 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Arbitrum Stylus | Rachel Bousfield | Arbitrum Day Paris | 2023.08.18](https://www.youtube.com/watch?v=Whefhca1Fmk)
 
 ## Tools
-
 - [Stylus Playground](https://stylus-playground.vercel.app/) - An online playground for building, compiling and testing Stylus smart contracts
 - [Zig Stylus](https://github.com/Stylish-Stylus/zig-stylus) - Zig SDK for Stylus smart contracts
 - [stylus-toolkit](https://github.com/LimeChain/stylus-toolkit) - A toolkit of Stylus primitives and examples of their usage
@@ -48,7 +44,6 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [`koba`](https://github.com/OpenZeppelin/koba) - Deploy Stylus contracts with Solidity constructors
 
 ## Libraries
-
 - [OppenZeppelin Stylus](https://github.com/OpenZeppelin/rust-contracts-stylus) - OpenZeppelin Contracts for Stylus
 - [Inkmate](https://github.com/cygaar/inkmate) - Gas-efficient smart contracts written in Rust, including ERC20 and ERC721
 - [Rustmate](https://github.com/cairoeth/rustmate) - Blazing fast, modern, and optimized Rust building blocks for smart contract development using Stylus
@@ -84,8 +79,8 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
   - [Stylusmate](https://github.com/DeVazzi/stylusmate) `[cs v0.1.x]` - An ERC20 with Ownable module in Rust
   - [Rustmate ERC20](https://github.com/cairoeth/rustmate/blob/main/src/tokens/erc20.rs) `[cs v0.1.x]` - An ERC20 + EIP-2612 implementation equivalent to Solmate
 - ERC721 Examples
-  - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/) `[cs v0.1.x]`
-  - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721) `[cs v0.1.x]`
+  - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/) `[cs v0.1.x]` 
+  - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721) `[cs v0.1.x]` 
   - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main) `[cs v0.1.x]`
 - [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) `[cs v0.1.x]` - A Uniswap v2 proof of concept implementation
 - [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) `[cs v0.1.x]` - A Rust based project that uses gravitational field computation for generating NFTs
