@@ -49,6 +49,10 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 
 ## Examples
 
+:warning: **IMPORTANT**: Most of these examples were created using an older version of cargo-stylus (< v0.5.0), and with an older stylus-sdk version (< v0.6.0) and might not be compatible with recent versions of cargo-stylus without making some modifications to the source code.
+
+### Examples built with cargo-stylus v0.4.x and stylus-sdk v0.5.x
+
 - ERC-20 Examples
   - [https://github.com/OffchainLabs/stylus-erc20 (Rust)](https://github.com/OffchainLabs/stylus-erc20)
 - ERC7-21 Examples
@@ -65,24 +69,36 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [stylus-benchmark](https://github.com/Daniel-K-Ivanov/stylus-benchmark) - A project benchmarking Stylus vs EVM implementations on their gas consumption
 - [create2 tutorial](https://github.com/rollchad/stylus-create2): Deploy stylus contracts with `create2` and derive their addresses.
 
-## Further examples (created using an older cargo-stylus version and an older stylus-sdk version)
+### Examples built with cargo-stylus v0.2.x
 
-:warning: **IMPORTANT**: These examples were created using an older version of cargo-stylus (v0.1.x or v0.2.x), and with an older stylus-sdk version (< v0.5.0) and might not be compatible with recent versions of cargo-stylus without making some modifications to the source code.
+- [Zk-sunade](https://github.com/supernovahs/zk-sunade) - An optimized , handwritten implementation of Groth16 using Arbitrum Stylus
+- [Stylus Proxy](https://github.com/byteZorvin/stylus-proxy) - An example contract for implementing minimal proxy pattern in Stylus
+- [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) - Sieve of Erathosthenes implemented with AssemblyScript
+
+#### How to make this code compatible with stylus-sdk v0.5.0
+
+When trying to use the latest version of `cargo stylus` on a project created first on cs v0.2.x you might run into this error:
+
+```
+missing import pay_for_memory_grow
+```
+
+To make the code compatible with the latest version, you might need to update the stylus-sdk version used to v0.5.0
 
 ### Examples built with cargo-stylus v0.1.x
 
 - ERC20 Examples
-  - [Stylus Permit](https://github.com/prestwich/stylus-permit) `[cs v0.1.x]` - An ERC20 Permit example in Rust
-  - [Stylusmate](https://github.com/DeVazzi/stylusmate) `[cs v0.1.x]` - An ERC20 with Ownable module in Rust
-  - [Rustmate ERC20](https://github.com/cairoeth/rustmate/blob/main/src/tokens/erc20.rs) `[cs v0.1.x]` - An ERC20 + EIP-2612 implementation equivalent to Solmate
+  - [Stylus Permit](https://github.com/prestwich/stylus-permit) - An ERC20 Permit example in Rust
+  - [Stylusmate](https://github.com/DeVazzi/stylusmate) - An ERC20 with Ownable module in Rust
+  - [Rustmate ERC20](https://github.com/cairoeth/rustmate/blob/main/src/tokens/erc20.rs) - An ERC20 + EIP-2612 implementation equivalent to Solmate
 - ERC721 Examples
-  - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/) `[cs v0.1.x]` 
-  - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721) `[cs v0.1.x]` 
-  - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main) `[cs v0.1.x]`
-- [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) `[cs v0.1.x]` - A Uniswap v2 proof of concept implementation
-- [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) `[cs v0.1.x]` - A Rust based project that uses gravitational field computation for generating NFTs
+  - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/)
+  - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721) 
+  - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main)
+- [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) - A Uniswap v2 proof of concept implementation
+- [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) - A Rust based project that uses gravitational field computation for generating NFTs
 
-#### How to make this code compatible with cargo-stylus v0.3.x and stylus-sdk v0.5.0
+#### How to make this code compatible with stylus-sdk v0.5.0
 
 When trying to use the latest version of `cargo stylus` on a project created first on cs v0.1.x you might run into this error:
 
@@ -96,19 +112,3 @@ Here are some tips for making this code compatible with the latest version:
 - Add also a `[lib]` target to your Cargo.toml file if you don't have one
 - Update the stylus-sdk version used to v0.5.0
 - Modify the function names from `camelCase` to `snake_case`
-
-### Examples built with cargo-stylus v0.2.x
-
-- [Zk-sunade](https://github.com/supernovahs/zk-sunade) `[cs v0.2.x]` - An optimized , handwritten implementation of Groth16 using Arbitrum Stylus
-- [Stylus Proxy](https://github.com/byteZorvin/stylus-proxy) `[cs v0.2.x]` - An example contract for implementing minimal proxy pattern in Stylus
-- [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) `[cs v0.2.x]` - Sieve of Erathosthenes implemented with AssemblyScript
-
-#### How to make this code compatible with cargo-stylus v0.3.x and stylus-sdk v0.5.0
-
-When trying to use the latest version of `cargo stylus` on a project created first on cs v0.2.x you might run into this error:
-
-```
-missing import pay_for_memory_grow
-```
-
-To make the code compatible with the latest version, you might need to update the stylus-sdk version used to v0.5.0
