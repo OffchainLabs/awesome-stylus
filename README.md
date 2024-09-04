@@ -41,6 +41,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Zig Stylus](https://github.com/Stylish-Stylus/zig-stylus) - Zig SDK for Stylus smart contracts
 - [stylus-toolkit](https://github.com/LimeChain/stylus-toolkit) - A toolkit of Stylus primitives and examples of their usage
 - [Stylus Suite](https://github.com/tolgayayci/stylus-vscode-extension) - Manage your Stylus projects with this Vs Code extension. Call cargo stylus methods with simple user interface, use pre defined snippets, chat with Stylus GPT and many more
+- [WELLDONE Code](https://remix.ethereum.org/?#activate=wds-code-remix) - Remix IDE for Stylus
 
 ## Libraries
 - [Inkmate](https://github.com/cygaar/inkmate) - Gas-efficient smart contracts written in Rust, including ERC20 and ERC721
