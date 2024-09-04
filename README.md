@@ -72,6 +72,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 ### Examples built with cargo-stylus v0.2.x
 
 - [Zk-sunade](https://github.com/supernovahs/zk-sunade) - An optimized , handwritten implementation of Groth16 using Arbitrum Stylus
+- [Sketch-stylus](https://github.com/blueh4mster/sketch-stylus) - Optimized, handwritten machine learning models written in Rust using Arbitrum Stylus
 - [Stylus Proxy](https://github.com/byteZorvin/stylus-proxy) - An example contract for implementing minimal proxy pattern in Stylus
 - [Stylus AssemblyScript Example](https://github.com/OffchainLabs/stylus-as-example) - Sieve of Erathosthenes implemented with AssemblyScript
 
