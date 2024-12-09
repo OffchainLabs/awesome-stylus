@@ -21,7 +21,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 ## Videos
 ### Stylus Pro Series
 A detailed exploration of the Rust SDK, development tools, and high-performance use cases.
-- [Day 1: Using the Rust SDK | José Franco |  2024.10.01](https://www.youtube.com/watch?v=VQ70Vc1T1Ik)
+- [Day 1: Using the Rust SDK | José Franco, Chris Cordle |  2024.10.01](https://www.youtube.com/watch?v=VQ70Vc1T1Ik)
 - [Day 2: Tools and Testing | José Franco | 2024.10.02](https://www.youtube.com/watch?v=LUhqM-XQnrw)
 - [Day 3: Implementing Black-Scholes | Chris Cordle | 2024.10.07](https://www.youtube.com/watch?v=LUhqM-XQnrw)
 
