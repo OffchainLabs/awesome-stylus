@@ -19,6 +19,22 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Stylus Rust SDK: Feature Overview](https://docs.arbitrum.io/stylus/reference/rust-sdk-guide)
 
 ## Videos
+### Stylus Pro Series
+A detailed exploration of the Rust SDK, development tools, and high-performance use cases.
+- [Day 1: Using the Rust SDK | José Franco, Chris Cordle |  2024.10.01](https://www.youtube.com/watch?v=VQ70Vc1T1Ik)
+- [Day 2: Tools and Testing | José Franco | 2024.10.02](https://www.youtube.com/watch?v=LUhqM-XQnrw)
+- [Day 3: Implementing Black-Scholes | Chris Cordle | 2024.10.07](https://www.youtube.com/watch?v=LUhqM-XQnrw)
+
+### Stylus Showcase Series
+In-depth conversations with the founders of early Stylus projects, exploring their experiences building with Stylus.
+- [Crypto Valley Exchange | Onchain Portfolio Risk Management | 2024.10.30](https://www.youtube.com/watch?v=VjtYMhGSFlQ)  
+- [Lit Protocol | Decentralizing Digital Ownership | 2024.10.17](https://www.youtube.com/watch?v=hEhGNAG2Ur8)  
+- [Fairblock | Dynamic Confidentiality Network | 2024.10.09](https://www.youtube.com/watch?v=pFGGnA9SyyY)  
+- [OpenZeppelin | Building Stylus Tools and Contracts | 2024.09.19](https://www.youtube.com/watch?v=tmGWL9mV7C)  
+- [Superposition | Native Liquidity on Arbitrum | 2024.09.12](https://www.youtube.com/watch?v=cS7XukVufSc)  
+- [Renegade | Building Onchain Dark Pools | 2024.09.04](https://www.youtube.com/watch?v=fYGxIEKCMgA)
+
+### Talks & Presentations
 - [Intro to Arbitrum Stylus: NFT Contracts in Rust | José Franco | Foss Asia Summit 2024 | 2024.04.08](https://www.youtube.com/watch?v=M31sqbb3f8I&t=107s)
 - [Intro to Rust & Arbitrum Stylus | Chris Cordle | Foss Asia Summit 2024 | 2024.04.08](https://www.youtube.com/live/M31sqbb3f8I?si=0gYJZVm6KInd0sEy&t=107)
 - [Intro to Arbitrum Stylus: Interactions Between Solidity and Rust | José Franco | ETHGlobal London 2024 | 2024.03.15](https://www.youtube.com/live/8xEkv5bRIjs?si=-QPJUZguT7a2c3T7&t=7140)
@@ -37,25 +53,34 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [Arbitrum Stylus | Rachel Bousfield | Arbitrum Day Paris | 2023.08.18](https://www.youtube.com/watch?v=Whefhca1Fmk)
 
 ## Tools
+- [Stylus Remix Plugin | Welldone Studio](https://remix.ethereum.org/?#activate=wds-code-remix&lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.26+commit.8a97fa7a.js) - A Remix plugin (online editor) to write your Stylus contracts and deploy them.
 - [Stylus Playground](https://stylus-playground.vercel.app/) - An online playground for building, compiling and testing Stylus smart contracts
 - [Zig Stylus](https://github.com/Stylish-Stylus/zig-stylus) - Zig SDK for Stylus smart contracts
 - [stylus-toolkit](https://github.com/LimeChain/stylus-toolkit) - A toolkit of Stylus primitives and examples of their usage
 - [Stylus Suite](https://github.com/tolgayayci/stylus-vscode-extension) - Manage your Stylus projects with this Vs Code extension. Call cargo stylus methods with simple user interface, use pre defined snippets, chat with Stylus GPT and many more
 
 ## Libraries
+- [Unit Testing | Open Zepplin](https://github.com/OpenZeppelin/rust-contracts-stylus/blob/main/lib/motsu/README.md) - A Rust testing library that provides utilities and helpers for unit testing your smart contracts.
+- [E2E Testing | Open Zepplin](https://github.com/OpenZeppelin/rust-contracts-stylus/blob/main/lib/e2e/README.md) - A Rust testing library coupled to the Nitro Dev Node to provide affordances and utilities for end to end smart contract testing.
+- [Open Zepplin Contracts](https://github.com/OpenZeppelin/rust-contracts-stylus/tree/main) - Canonical and audited implementations of ERC-20, ERC-721, ERC-1155, access control contracts, and more. See repository for exact audit statuses.
 - [Inkmate](https://github.com/cygaar/inkmate) - Gas-efficient smart contracts written in Rust, including ERC20 and ERC721
 - [Rustmate](https://github.com/cairoeth/rustmate) - Blazing fast, modern, and optimized Rust building blocks for smart contract development using Stylus
 - [OpenStylus](https://github.com/Prabhat1308/OpenStylus) - Modular and gas-optimized smart contract libraries and frameworks for Stylus smart contract development
 
+## Projects
+- [Renegade](https://renegade.fi/) ([docs](https://docs.renegade.fi/) / [repo](https://github.com/renegade-fi/renegade) / [case study](https://blog.arbitrum.io/renegade-stylus-case-study/)) - On-chain dark pool utilizing ZK-proofs for privacy preserving transactions.
+- [Superposition - LongTail](https://superposition.so/) ([docs](https://docs.superposition.so/native-dapps/longtail-amm) / [repo](https://github.com/fluidity-money/long.so) / [case study](https://blog.arbitrum.io/how-superposition-is-transforming-onchain-rewards-with-stylus/)) - Rewards based AMM built with Stylus on a L3 Orbit Chain (Superposition).
+
 ## Examples
+- [Ed25519 signature recovery benchmark | LimeChain ](https://github.com/LimeChain/stylus-benchmark)
+- [Onchain Package Manager | Bucharest Arbitrum Hackathon | JustAnotherDevv](https://github.com/JustAnotherDevv/stylus-package-manager)
 
 :warning: **IMPORTANT**: Most of these examples were created using an older version of cargo-stylus (< v0.5.0), and with an older stylus-sdk version (< v0.6.0) and might not be compatible with recent versions of cargo-stylus without making some modifications to the source code.
-
 ### Examples built with cargo-stylus v0.4.x and stylus-sdk v0.5.x
 
 - ERC-20 Examples
   - [https://github.com/OffchainLabs/stylus-erc20 (Rust)](https://github.com/OffchainLabs/stylus-erc20)
-- ERC7-21 Examples
+- ERC-721 Examples
   - [https://github.com/OffchainLabs/stylus-erc721 (Rust)](https://github.com/OffchainLabs/stylus-erc721)
   - [https://github.com/OffchainLabs/stylus-workshop-basic-nft (Rust)](https://github.com/OffchainLabs/stylus-workshop-basic-nft)
 - [Stylus workshop (Rust & Solidity)](https://github.com/OffchainLabs/stylus-workshop-rust-solidity) - An example of 3 contracts (two written in Rust, and one in Solidity) interacting with each other.
